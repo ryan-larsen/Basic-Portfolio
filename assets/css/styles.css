@@ -1,23 +1,58 @@
+/*
+Teal color (used for headings and backgrounds): #4aaaa5
+
+Regular font color (used for paragraphs and all text besides the headings): #777777
+
+Main header background color: #ffffff
+
+Main header border color: #cccccc
+
+Footer background color: #666666
+
+Main content background color: #ffffff
+
+Main content border color: #dddddd
+
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+*/
+
 * {
     margin: 0;
     padding: 0;
     font-size: 22px;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    
 }
 
+.wrapper {
+    background-image: url(/assets/images/trees.png);
+}
+
+.heading {
+    font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
+}
+
+
 header {
-    height: 150px;
+    height: 100px;
     position: relative;
+    border: 2px solid #ccc;
+    background-color: #ffffff;
+    width: 100%;
 }
 
 ul {
     list-style-type: none;
     overflow: hidden;
+    background: #ffffff;
 }
 
 .name {
     position: absolute;
     left: 100px;
-    padding: 14px 16px;
+    padding: 25px 16px;
     font-size: 2em;
     color: #ffffff;
     background-color: #4aaaa5;
@@ -35,7 +70,10 @@ li a {
     display: block;
 }
 
-
+.main-body {
+    background-color: #ffffff;
+    height: 960px;
+}
 
 .myphoto {
     height: 200px;
