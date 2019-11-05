@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+header {
+    height: 150px;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.name {
+    position: absolute;
+    left: 100px;
+    padding: 14px 16px;
+    font-size: 2em;
+    color: #ffffff;
+    background-color: #4aaaa5;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+
+
+.myphoto {
+    height: 200px;
+    width: 200px;
+}
