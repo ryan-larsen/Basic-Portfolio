@@ -47,15 +47,15 @@ ul {
     background: #ffffff;
 }
 
-.name {
+.name-container {
     margin: 0;
     position: absolute;
-    top: 0px;
+    top:0;
     left: 150px;
     display: block;
-    height: 100px;
     color: #ffffff;
     background-color: #4aaaa5;
+    padding: 31px 16px;
 }
 
 li {
@@ -70,6 +70,7 @@ li a {
     background: #ffffff;
     color: #777;
     border-right: 1px solid #ccc;
+    
 }
 
 .main-body {
@@ -84,7 +85,7 @@ li a {
     height: 200px;
     width: 200px;
     float: left;
-    padding-right: 15px;
+    padding: 15px;
 }
 
 
