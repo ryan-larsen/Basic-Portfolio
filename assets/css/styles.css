@@ -18,17 +18,15 @@ For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
 For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
 */
 
-* {
+body {
     margin: 0;
     padding: 0;
+    color: #777;
     font-size: 22px;
     font-family: 'Arial', 'Helvetica', 'sans-serif';
-    
-}
-
-.wrapper {
     background-image: url(/assets/images/trees.png);
 }
+
 
 .heading {
     font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
@@ -50,13 +48,14 @@ ul {
 }
 
 .name {
+    margin: 0;
     position: absolute;
-    left: 100px;
-    padding: 25px 16px;
-    font-size: 2em;
+    top: 0px;
+    left: 150px;
+    display: block;
+    height: 100px;
     color: #ffffff;
     background-color: #4aaaa5;
-
 }
 
 li {
@@ -68,14 +67,24 @@ li a {
     text-decoration: none;
     text-align: center;
     display: block;
+    background: #ffffff;
+    color: #777;
+    border-right: 1px solid #ccc;
 }
 
 .main-body {
+    width: 75%;
     background-color: #ffffff;
     height: 960px;
+    margin: auto;
+
 }
 
 .myphoto {
     height: 200px;
     width: 200px;
+    float: left;
+    padding-right: 15px;
 }
+
+
