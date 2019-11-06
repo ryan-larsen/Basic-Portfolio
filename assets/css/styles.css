@@ -25,11 +25,15 @@ body {
     font-size: 22px;
     font-family: 'Arial', 'Helvetica', 'sans-serif';
     background-image: url(/assets/images/trees.png);
+    height: 960px;
 }
 
 
 .heading {
+    color: #4aaaa5;
     font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
+    padding-top: 15px;
+    padding-left: 10px;
 }
 
 
@@ -45,6 +49,7 @@ ul {
     list-style-type: none;
     overflow: hidden;
     background: #ffffff;
+    
 }
 
 .name-container {
@@ -76,8 +81,9 @@ li a {
     width: 75%;
     background-color: #ffffff;
     height: 500px;
-    margin: auto;
+    margin: 30px auto;
     display: block;
+    padding: 5px;
 }
 
 .myphoto {
