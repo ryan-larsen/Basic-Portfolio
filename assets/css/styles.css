@@ -70,15 +70,14 @@ li a {
     background: #ffffff;
     color: #777;
     border-right: 1px solid #ccc;
-    
 }
 
 .main-body {
     width: 75%;
     background-color: #ffffff;
-    height: 960px;
+    height: 500px;
     margin: auto;
-
+    display: block;
 }
 
 .myphoto {
