@@ -93,7 +93,9 @@ li a {
     padding: 15px;
 }
 
-
+.form-wrapper {
+    border-top: 1px solid #ccc;
+}
 
 label {
     display: block;
@@ -118,4 +120,15 @@ textarea {
 .button {
     background-color: #4aaaa5;
     color: #fff;
+}
+
+.port-column1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.port-images {
+    display: inline;
+    padding: 30px;
 }
