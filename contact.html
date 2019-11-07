@@ -17,7 +17,7 @@
                 <h1 class="name-container">Ryan Larsen</h1>
             </h1>
             <ul>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Contact</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="index.html">About</a></li>
             </ul>
@@ -28,14 +28,24 @@
     <div class="main-body">
         <h1 class="heading ">Contact</h1>
 
-        <section>
+        <section class="form-wrapper">
             <form class="contact-form" action="https://formspree.io/larsenr12@gmail.com" method="POST">
-                <input type="text" name="name" value="" placeholder="Name" class="name" required><br>
-                <input type="text" name="mail" value="" placeholder="Your email" class="email" required><br>
-                <input type="text" name="subject" value="" placeholder="Subject" class="subject" required><br>
-                <textarea name="message" id="" cols="20" rows="10" placeholder="Message..." class="message"
-                    required></textarea><br>
-                <input type="submit" value="Send">
+                <div class="form-name">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" value="" placeholder="Name" class="name" required>
+                </div>
+                <div class="form-email">
+                    <label for="mail">Email</label>
+                    <input type="text" name="mail" value="" placeholder="Your email" class="email" required>
+                </div>
+                <div class="form-message">
+                    <label for="msg">Message</label>
+                    <textarea name="message" id="" cols="20" rows="10" placeholder="Message..." class="message" required></textarea>
+                </div>
+                <div class="form-button">
+                        <input class="button" type="button" value="Send">
+                </div>
+                
             </form>
         </section>
     </div>

@@ -80,7 +80,7 @@ li a {
 .main-body {
     width: 75%;
     background-color: #ffffff;
-    height: 500px;
+    height: 600px;
     margin: 30px auto;
     display: block;
     padding: 5px;
@@ -94,3 +94,28 @@ li a {
 }
 
 
+
+label {
+    display: block;
+    padding: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+}
+
+textarea {
+    width: 90%;
+    padding: 10px;
+}
+
+.form-button {
+    width: 120px;
+    padding: 20px;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: #fff;
+}
