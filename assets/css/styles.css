@@ -4,7 +4,7 @@ body {
     color: #777;
     font-size: 22px;
     font-family: 'Arial', 'Helvetica', 'sans-serif';
-    background-image: url(assets/images/trees.png);
+    background-image: url(/assets/images/trees.png), gray;
     height: 960px;
 }
 
